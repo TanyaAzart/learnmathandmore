@@ -1,13 +1,13 @@
 const GalleryImages = [
-    // {
-    //     id: 0,
-    //     img: '/images/small/celta.png',
-    //     alt: 'Cambridge certificate',
-    //     large: '/images/large/celta.png',
-    //     title: 'Сертификат CELTA',
-    //     descr: 'Кембриджский сертификат преподавателя английского языка '
+    {
+        id: 100,
+        img: '/images/small/celta.png',
+        alt: 'Cambridge certificate',
+        large: '/images/large/celta.jpg',
+        title: 'Сертификат CELTA',
+        descr: 'Кембриджский сертификат преподавателя английского языка '
 
-    // },
+    },
 
     {
         id: 1,
