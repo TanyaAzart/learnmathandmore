@@ -244,7 +244,7 @@ const GalleryImages = [
     },
     {
         id: 29,
-        img: '/images/small/begonias.jpg',
+        img: '.images/small/begonias.jpg',
         alt: 'Begonias',
         large: '/images/large/begonias.jpg',
         title: 'Лондонские бегонии',
@@ -412,7 +412,7 @@ const GalleryImages = [
     },
     {
         id: 50,
-        img: '/images/small/panama.jpg',
+        img: '.images/small/panama.jpg',
         alt: 'Panamas Factory',
         large: '/images/large/panama.jpg',
         title: 'На фабрике панам в Эквадоре',

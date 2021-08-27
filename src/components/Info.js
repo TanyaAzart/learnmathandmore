@@ -1,4 +1,12 @@
 import React from 'react';
+import Skype from './images/skype.png';
+import Phone from './images/phone.png';
+import WhatsApp from './images/whatsapp.png';
+import Telegram from './images/telegram.jpg';
+import Email from './images/email.png';
+
+
+
 
 const Info = () => {
     return ( 
@@ -11,11 +19,11 @@ const Info = () => {
             <p><strong>Китай, Россия, Ирак, Вьетнам, Индия, Доминикана, Эквадор, Панама, Ливан, США, Япония</strong> и даже <strong>Тринидад и Тобаго</strong>  - вот перечень стран, в которых живут и работают люди, запечатленные на этой фотографии. Надеюсь, вы меня на ней узнали :)</p>
             <p>Если вы захотите стать моим учеником или ученицей, вы можете найти меня здесь:</p>
                 <ul>
-                <li className="contacts"><div><img alt ={'Skype icon'} src={'/images/skype.png'} style={{height:3+'vw'}}/></div> <p><strong> ' tatiana . azarchenko '</strong></p></li>
-                <li className="contacts"><div><img alt ={'Phone icon'} src={'/images/phone.png'} style={{height:3+'vw'}}/></div><p><strong> +34 694 49 43 66</strong></p></li>
-                <li className="contacts"><div><img alt ={'WhatsApp icon'} src={'/images/whatsapp.png'} style={{height:3+'vw'}}/></div><p><strong> +34 694 49 43 66</strong></p></li>
-                <li className="contacts"><div><img alt ={'Telegram icon'} src={'/images/telegram.jpg'} style={{height:3+'vw'}}/></div><p><strong> +34 694 49 43 66</strong></p></li>
-                <li className="contacts"><div><img alt ={'Email icon'} src={'/images/email.png'} style={{height:3+'vw'}}/></div><p><strong> info@learnmathandmore.org</strong></p></li>
+                <li className="contacts"><div><img alt ={'Skype icon'} src={Skype} style={{height:3+'vw'}}/></div> <p><strong> ' tatiana . azarchenko '</strong></p></li>
+                <li className="contacts"><div><img alt ={'Phone icon'} src={Phone} style={{height:3+'vw'}}/></div><p><strong> +34 694 49 43 66</strong></p></li>
+                <li className="contacts"><div><img alt ={'WhatsApp icon'} src={WhatsApp} style={{height:3+'vw'}}/></div><p><strong> +34 694 49 43 66</strong></p></li>
+                <li className="contacts"><div><img alt ={'Telegram icon'} src={Telegram} style={{height:3+'vw'}}/></div><p><strong> +34 694 49 43 66</strong></p></li>
+                <li className="contacts"><div><img alt ={'Email icon'} src={Email} style={{height:3+'vw'}}/></div><p><strong> info@learnmathandmore.org</strong></p></li>
                 </ul>
             <p><strong>Цена индивидуального занятия</strong> - <strong>15 евро за час </strong>при поурочной оплате. При оплате пакетом за 8 занятий вперед цена снижается до 100 евро за пакет. Первое занятие - бесплатно.</p>
             

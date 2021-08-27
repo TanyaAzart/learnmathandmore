@@ -1,4 +1,17 @@
 import React from 'react';
+import Catedral1 from "../components/images/cat_abril.jpg";
+import Catedral2 from "../components/images/cat_sept.jpg";
+import Giralda from "../components/images/gir.jpg";
+import Bienvenido from "../components/images/bienvenido.jpg";
+import Fluger from "../components/images/giralda.jpg";
+import Doves from "../components/images/doves.jpg";
+import Sevilla from "../components/images/mesa.jpg";
+import Catedral3 from "../components/images/cat_noche.jpg";
+import SemanaSanta from "../components/images/cat_feria.jpg";
+
+
+
+
 
 const Item0 =()=>{
 
@@ -18,41 +31,41 @@ const Item0 =()=>{
 
             <p>Вот это – Севильский собор в начале апреля, перед приходом Святой Недели, строг и тих:</p>
 
-            <p><img alt={"Cathedral in april"} src={"/images/cat_abril.jpg"} /></p>
+            <p><img alt={"Cathedral in april"} src={Catedral1} /></p>
 
             <p>А это – Севильский собор в разгар лета, видите какое синее небо?</p>
 
-            <p><img alt={"Cathedral in summer"} src={"/images/cat_sept.jpg"} /></p>
+            <p><img alt={"Cathedral in summer"} src={Catedral2} /></p>
 
             <p>А эта башня называется Хиральда:</p>
 
-            <p><img alt={"Giralda"} src={"/images/gir.jpg"} /></p>
+            <p><img alt={"Giralda"} src={Giralda} /></p>
 
             <p>А эту лошадку зовут Bienvenido, что означает «Добро пожаловать». Она стоит около собора в очереди других таких же лошадок, что за сорок евро готовы покатать вас по историческому центру города:</p>
 
-            <p><img alt={"Bienvenido"} src={"/images/bienvenido.jpg"} /></p>
+            <p><img alt={"Bienvenido"} src={Bienvenido} /></p>
 
             <p>А эта дама, что стоит у входа в собор – точная копия той, что на макушке Хиральды работает флюгером:</p>
 
-            <p><img alt={"Weathercock"} src={"/images/giralda.jpg"} /></p>
+            <p><img alt={"Weathercock"} src={Fluger} /></p>
 
             <p>А это голуби, что всегда плещутся в фонтане напротив собора:</p>
 
-            <p><img alt={"Doves"} src={"/images/doves.jpg"} /></p>
+            <p><img alt={"Doves"} src={Doves} /></p>
 
             <p>А если вы войдете в собор – вы увидите место вечного упокоения Христофора Колумба. Фотографии нет, так как там темновато, а вспышки запрещены.</p>
 
             <p>А если вы заберетесь на Хиральду – оттуда вы увидите город. И будет он выглядеть вот так:</p>
 
-            <p><img alt={"Seville"} src={"/images/mesa.jpg"} /></p>
+            <p><img alt={"Seville"} src={Sevilla} /></p>
 
             <p>Когда я делала эту фотографию, стоявшая рядом со мной испанская парочка откомментировала : «Sevilla es como una mesa!», что означает – «Севилья похожа на стол!» Ну, может быть. Дело в том, что все севильские крыши – плоские и обитаемые. Там можно загорать, сушить белье, отдыхать с друзьями и заниматься хозяйственными делами. С них можно фотографировать. Вот, например, эту фотку Севильского собора на закате первого дня Святой Недели я сделала со своей крыши:</p>
 
-            <p><img alt={"Cathedral at night"} src={"/images/cat_noche.jpg"} /></p>
+            <p><img alt={"Cathedral at night"} src={Catedral3} /></p>
 
             <p>А вот это очень редкий вид. Обратите внимание – ночь и ни одного человека на соборной площади! Такое бывает только один раз в году – в ночь открытия апрельской ферии, когда все – там. Потом расскажу, где…</p>
 
-            <p><img alt={"Semana Santa"} src={"/images/cat_feria.jpg"} /></p>
+            <p><img alt={"Semana Santa"} src={SemanaSanta} /></p>
 
     </React.Fragment>
     )

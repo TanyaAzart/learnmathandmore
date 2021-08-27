@@ -331,6 +331,37 @@ li {
   
 }  
 
+#item0 {
+  background-image: url(styles/catedral.png);
+}
+#item1 {
+  background-image: url(styles/peru.png);
+}
+#item2 {
+  background-image: url(styles/mercado.png);
+}
+#item3 {
+  background-image: url(styles/sucre.png);
+}
+#item4 {
+  background-image: url(styles/potosi.jpg);
+}
+#item5 {
+  background-image: url(styles/salar.jpg);
+}
+#item6 {
+  background-image: url(styles/valley.png);
+}
+#item7 {
+  background-image: url(styles/birds.png);
+}
+#item8 {
+  background-image: url(styles/sea.png);
+}
+#item9 {
+  background-image: url(styles/krasnogorsk.jpg);
+}
+
 /*COLUMNS STYLES*/
 
 .col-two {

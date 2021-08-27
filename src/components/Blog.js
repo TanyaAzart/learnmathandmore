@@ -2,6 +2,7 @@ import React from 'react';
 import BlogItems from './BlogItems';
 import RecentItems from './RecentItems';
 import Link from './Link';
+import Tanya from './images/Tanya_Eng.jpg';
 
 
 const Blog =({onTitleClick})=> {
@@ -18,13 +19,13 @@ const Blog =({onTitleClick})=> {
                         </Link></h2>
 
                         <div className="post-byline">
-                            <img src={'/images/Tanya_Eng.jpg'} alt={"Author"}/>
+                            <img src={Tanya} alt={"Author"}/>
                                 by: Tatiana Azarchenko, <span> {item.date}</span>
                         </div>
                 </header>
 
                 <Link href={`/blog/${item.id}`}>
-                    <div onClick={()=>onTitleClick(item.id)}  className="posts-image" style={{backgroundImage: `${item.img}`}}>
+                    <div onClick={()=>onTitleClick(item.id)}  className="posts-image" id={`${item.img}`} >
                        </div>
                 </Link>
                 <p>{item.content}</p>

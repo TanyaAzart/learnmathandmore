@@ -1,7 +1,9 @@
 import React from 'react';
 import BlogItems from './BlogItems';
 import RecentItems from './RecentItems';
+import Tanya from './images/Tanya_Eng.jpg';
 import Item0 from '../blogs/Item0';
+
 import Item1 from '../blogs/Item1';
 import Item2 from '../blogs/Item2';
 import Item3 from '../blogs/Item3';
@@ -23,14 +25,14 @@ const BlogItem = ({onTitleClick, currentItem})=> {
     return (        
 
         <div className='post'>
-            <div className="hero" style={{backgroundImage: `${item.img}`}}></div>
+            <div className="hero" id={`${item.img}`} style={{backgroundImage: `${item.img}`}}></div>
             
                 <article className="page">
                     <header className="post-header">
                         <h1>{item.title}</h1>
 
                         <div className="post-byline">
-                            <img src={'/images/Tanya_Eng.jpg'} alt={"Author"}/>        
+                            <img src={Tanya} alt={"Author"}/>        
                             by: Tatiana Azarchenko,
                             <span> {item.date}</span>
                         </div>

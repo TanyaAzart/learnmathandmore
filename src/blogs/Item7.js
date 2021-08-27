@@ -1,4 +1,5 @@
 import React from 'react';
+import Parakas from "../components/images/parakas.jpg";
 
 
 const Item7 =()=>{
@@ -10,7 +11,7 @@ const Item7 =()=>{
 
             <p>Одним словом, сегодня хороший день, пропитанный морским ветром, навевающим позитивные мысли. Обожаю море. Я уж не говорю про Тихий океан.</p>
 
-            <p><img alt={"Parakas"} src={"/images/parakas.jpg"} /></p>
+            <p><img alt={"Parakas"} src={Parakas} /></p>
         </React.Fragment>
     )
 }

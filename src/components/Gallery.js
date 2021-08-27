@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import GalleryImages from './GalleryImages.js';
-import Image from './Image.js';
 
 const Gallery =()=>{
 
@@ -15,10 +14,13 @@ const Gallery =()=>{
         
         const attr = image===currentImage? 'current':'';
         
-        return (<div className={attr} key={image.id}>
-                    <Image image={image} onImageClick={onImageClick}/>
+        return (
+                <div className={attr} key={image.id}>
+                    <div onClick={()=>onImageClick(image)}>
+                        <img src={`${process.env.PUBLIC_URL}${image.img}`} alt={image.alt}/>
+                    </div>
                 </div>
-            )
+                )
         })
 
     
