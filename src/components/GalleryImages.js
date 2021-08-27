@@ -1,7 +1,7 @@
 const GalleryImages = [
     {
         id: 100,
-        img: '/images/small/celta.png',
+        img: '/images/small/celta.jpg',
         alt: 'Cambridge certificate',
         large: '/images/large/celta.jpg',
         title: 'Сертификат CELTA',
