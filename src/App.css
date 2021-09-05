@@ -316,9 +316,9 @@ li {
 }
 
 .home .hero {
-  background-image: url(styles/flowers.png);
+  background-image: url(styles/header_main.png);
+} 
   
-}
 
 .info .hero {
   background-image: url(styles/ten.jpg);
@@ -460,6 +460,22 @@ line-height: 1.5em;
   border-radius: 50%;
   height: 10vh;
 }
+
+.author {
+  display: flex;
+  margin: 3vh 0 0 0;
+ }
+
+ .author-portrait {
+   margin-left: 3vw;
+ }
+ 
+ .author img {
+   border-radius: 50%;
+   height: 20vh;
+   margin-left: 2 vw;
+ }
+ 
 
 /* BLOG STYLES */
 
