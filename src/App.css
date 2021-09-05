@@ -476,6 +476,19 @@ line-height: 1.5em;
    margin-left: 2 vw;
  }
  
+ #enlarged img {
+  height: 60vh;
+ }
+
+.docs {
+  display:inline;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.docs img {
+  height: 20vh;
+}
 
 /* BLOG STYLES */
 
