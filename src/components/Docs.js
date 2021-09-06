@@ -12,16 +12,25 @@ const Docs = () => {
     const docs = [Mendeleev, MGU, MGUU, ASU, Celta, CMA]
     const [currentDoc, setCurrentDoc] = useState(null);
 
+    const onDocClick = (doc)=>{
+        if (currentDoc==null) {
+            setCurrentDoc(doc)
+        }
+        else {
+            setCurrentDoc(null)
+        }
+    }
+
     const renderedDocs = docs.map((doc, index) =>{  
         
-        const attr = doc===currentDoc? 'enlarged':'';   
+        const attr = doc===currentDoc? 'enlarged':'';  
         
+           
         return (
                 <div className='pics'
                     id={attr} 
                     key={index}
-                    onMouseEnter={()=>setCurrentDoc(doc)}
-                    onMouseLeave={()=>setCurrentDoc(null)}>
+                    onClick={()=>onDocClick(doc)}>
                         <img src={docs[index]} alt={''}/>
                     </div>
                 )
