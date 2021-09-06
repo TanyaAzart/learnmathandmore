@@ -1,32 +1,5 @@
 const GalleryImages = [
-    // {
-    //     id: 100,
-    //     img: '/images/small/celta.jpg',
-    //     alt: 'Cambridge certificate',
-    //     large: '/images/large/celta.jpg',
-    //     title: 'Сертификат CELTA',
-    //     descr: 'Кембриджский сертификат преподавателя английского языка '
-
-    // },
-
-    // {
-    //     id: 1,
-    //     img: '/images/small/asu_cert.png',
-    //     alt: 'TESOL certificate',
-    //     large: '/images/large/asu_cert.png',
-    //     title: 'Сертификат TESOL',
-    //     descr: 'Сертификат преподавателя английского языка как иностранного, пожалованный мне университетом Штата Аризона, США'
-
-    // },
-    // {
-    //     id: 2,
-    //     img: '/images/small/IMA.jpg',
-    //     alt: 'CMA certificate',
-    //     large: '/images/large/IMA.jpg',
-    //     title: 'Сертификат CMA',
-    //     descr: 'Сертификат бухгалтера по управленческому учету, выданный мне американским Институтом Сертифицированных Бухгалтеров. Привожу его здесь в качестве демонстрации того факта, что знание английского языка может завести далеко...'
-
-    // },
+    
     {
         id: 3,
         img: '/images/small/kamis1.jpg',
@@ -244,7 +217,7 @@ const GalleryImages = [
     },
     {
         id: 29,
-        img: '.images/small/begonias.jpg',
+        img: '/images/small/begonias.jpg',
         alt: 'Begonias',
         large: '/images/large/begonias.jpg',
         title: 'Лондонские бегонии',

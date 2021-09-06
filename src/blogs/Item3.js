@@ -1,6 +1,6 @@
 import React from 'react';
 import Dance from "../components/images/dance.jpg";
-import Bed from "../components/images/bed.png";
+import Bed from "../components/images/bed.jpg";
 
 
 const Item3 = ()=> {

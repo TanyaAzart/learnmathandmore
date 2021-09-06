@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-import IMA from './images/IMA.jpg';
+import Mendeleev from './images/mendeleev.jpg';
+import MGU from './images/mgu.jpg';
 import Celta from './images/celta.jpg';
-import ASU from './images/asu_cert.png';
+import ASU from './images/asu_cert.jpg';
 
 
 const Docs = () => {
 
-    const docs = [IMA, ASU, Celta]
+    const docs = [Mendeleev, MGU, ASU, Celta]
     const [currentDoc, setCurrentDoc] = useState(null);
 
     const renderedDocs = docs.map((doc, index) =>{  

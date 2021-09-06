@@ -1,6 +1,6 @@
 import React from 'react';
 import LaPaz from "../components/images/lapaz.jpg";
-import Comanchi from "../components/images/comanchi.png";
+import Comanchi from "../components/images/comanchi.jpg";
 
 
 const Item2 = ()=> {

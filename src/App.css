@@ -477,7 +477,8 @@ line-height: 1.5em;
  }
  
  #enlarged img {
-  height: 60vh;
+  height: 80vh;
+  border-radius: 5%;
  }
 
 .docs {
