@@ -4,11 +4,12 @@ import MGU from './images/mgu.jpg';
 import MGUU from './images/mguu.jpg';
 import Celta from './images/celta.jpg';
 import ASU from './images/asu_cert.jpg';
+import CMA from './images/cma.jpg';
 
 
 const Docs = () => {
 
-    const docs = [Mendeleev, MGU, MGUU, ASU, Celta]
+    const docs = [Mendeleev, MGU, MGUU, ASU, Celta, CMA]
     const [currentDoc, setCurrentDoc] = useState(null);
 
     const renderedDocs = docs.map((doc, index) =>{  
@@ -16,8 +17,7 @@ const Docs = () => {
         const attr = doc===currentDoc? 'enlarged':'';   
         
         return (
-                <div 
-                    className='docs'
+                <div className='pics'
                     id={attr} 
                     key={index}
                     onMouseEnter={()=>setCurrentDoc(doc)}
@@ -27,7 +27,7 @@ const Docs = () => {
                 )
         })
 
-    return (<div className=''>
+    return (<div className='docs'>
         {renderedDocs}
             </div>)
 };

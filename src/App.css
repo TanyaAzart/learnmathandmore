@@ -482,13 +482,20 @@ line-height: 1.5em;
  }
 
 .docs {
-  display:inline-block;
+  display:flex;
+  flex-direction: row;
   margin-left: 2vw;
   margin-right: 2vw;
 }
 
-.docs img {
+.pics {
+margin-left:1vw;
+margin-right:1vw;
+}
+
+.pics img {
   height: 20vh;
+  display: inline;
 }
 
 /* BLOG STYLES */
