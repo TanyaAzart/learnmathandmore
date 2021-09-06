@@ -482,7 +482,7 @@ line-height: 1.5em;
  }
 
 .docs {
-  display:inline;
+  display:inline-block;
   margin-left: 2vw;
   margin-right: 2vw;
 }

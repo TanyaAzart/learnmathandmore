@@ -1,8 +1,11 @@
 import React from 'react';
 import Link from './Link.js';
+import MAN from './images/man.png';
+import MHTI from './images/rhtu.png';
 import MSU from './images/msu.png';
 import IMA from './images/ima.png';
 import ASU from './images/asu.png';
+import VIU from './images/viu.png';
 import Edx from './images/edx.png';
 import Coursera from './images/coursera.png';
 import Volvo from './images/volvo.png';
@@ -24,11 +27,21 @@ const About =() =>{
             <div className="col-two">
             <div className="col-content bio">
                     <h2><strong><em>Я родилась...</em></strong></h2>
-                    <p>...в большом сибирском городе в разгар зимы. Мое стремление к поиску новых пространств, полных солнечного света, тепла и свежего воздуха, родом оттуда. Впрочем, это у нас семейное, поэтому до окончания школы я успела пожить с родителями на Кавказе и в Крыму, а после приехала на учебу в Москву, где и осела на долгие годы.</p>
+                    <p>...в большом сибирском городе в разгар зимы. Мое стремление к поиску новых пространств, полных солнечного света, тепла и свежего воздуха, родом оттуда. Впрочем, это у нас семейное, поэтому до окончания школы я успела пожить с родителями на Кавказе и в Крыму, а после приехала на учебу в Москву, где и осела на долгие годы. </p>
                     <h2><strong><em>Я училась...</em></strong></h2>
-                    <p>...с большим интересом, много и весьма самостоятельно. Родители так и не выяснили, каким образом я научилась читать. Я тоже этого не помню. Зато помню, что английский язык я начала учить задолго до появления этого предмета в моем школьном расписании, случайно обнаружив дома англо-русский словарь. Освоение словаря было первым шагом на пути моего англоязычного образования, который позднее привел меня:</p>
+                    <p>...с большим интересом, много и весьма самостоятельно. Родители так и не выяснили, каким образом я научилась читать. Я тоже этого не помню. Зато помню, что английский язык я начала учить задолго до появления этого предмета в моем школьном расписании, случайно обнаружив дома англо-русский словарь. Любопытство и тяга к неведомому приводили меня в разные интересные места:</p>
 
                     <ul className="flex-list">
+
+                        <div className="school">
+                        <p>- в секцию кибернетики <a href="http://crimea-man.ru/" rel="noreferrer" target="_blank"><strong> Малой Академии Наук школьников Крыма</strong></a></p>
+                        <a href="http://crimea-man.ru/" rel="noreferrer" target="_blank"><img src={MAN} alt={"MAN logo"} style={{height:3+'vw'}}/></a>
+                        </div>
+
+                        <div className="school">
+                        <p>- на кафедру электрохимии<a href="https://www.muctr.ru/" rel="noreferrer" target="_blank"><strong> Менделеевского университета</strong></a></p>
+                        <a href="https://www.muctr.ru/" rel="noreferrer" target="_blank"><img src={MHTI} alt={"MHTI logo"} style={{height:3+'vw'}}/></a>
+                        </div>
 
                         <div className="school">
                         <p>- на<a href="http://www.ffl.msu.ru/" rel="noreferrer" target="_blank"><strong> факультет иностранных языков МГУ</strong></a></p>
@@ -44,6 +57,12 @@ const About =() =>{
                         <p>- в <a href="https://learnenglish.asu.edu" rel="noreferrer" target="_blank"><strong>Университет штата Аризона, США</strong></a></p>
                         <a href="https://learnenglish.asu.edu" rel="noreferrer" target="_blank"><img src={ASU} alt={"ASU logo"}/></a>
                         </div>
+
+                        <div className="school">
+                        <p>- в <a href="https://www.universidadviu.com" rel="noreferrer" target="_blank"><strong>Международный Университет Валенсии, Испания</strong></a></p>
+                        <a href="https://www.universidadviu.com" rel="noreferrer" target="_blank"><img src={VIU} alt={"VIU logo"}/></a>
+                        </div>
+
                     </ul>
                     <p>Однако, как выяснилось, у этой дороги нет конца! Потому, что в современном мире существуют интернет-платформы, такие как <a href="https://www.coursera.org/" rel="noreferrer" target="_blank"><img src={Coursera} alt={"Coursera logo"}/></a> или <a href="https://www.edx.org/" rel="noreferrer" target="_blank"><img src={Edx} alt={"edX logo"}/></a>, на которые выкладываются замечательные и, зачастую, совершенно бесплатные (<strong>в большинстве своем, англоязычные</strong>) курсы от лучших университетов мира. Благодаря этим курсам, а также <a href="https://www.learnenough.com" rel="noreferrer" target="_blank"><strong>отличным пособиям от Майкла Хартла (Michael Hartl)</strong></a>, я приобрела новое увлекательное хобби: программирование и веб-дизайн. Коды для своего сайта, на котором мы с вами сейчас беседуем, я писала сама (конструктивная критика приветствуется).
                     </p>
