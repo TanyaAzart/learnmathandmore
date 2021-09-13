@@ -3,8 +3,9 @@ import Link from './Link.js';
 import MAN from './images/man.png';
 import MHTI from './images/rhtu.png';
 import MSU from './images/msu.png';
-import IMA from './images/ima.png';
+// import IMA from './images/ima.png';
 import ASU from './images/asu.png';
+import Academia from './images/academia.jpeg';
 import VIU from './images/viu.png';
 import Edx from './images/edx.png';
 import Coursera from './images/coursera.png';
@@ -35,32 +36,32 @@ const About =() =>{
 
                         <div className="school">
                         <p>- в секцию кибернетики <a href="http://crimea-man.ru/" rel="noreferrer" target="_blank"><strong> Малой Академии Наук школьников Крыма</strong></a></p>
-                        <a href="http://crimea-man.ru/" rel="noreferrer" target="_blank"><img src={MAN} alt={"MAN logo"} style={{height:3+'vw'}}/></a>
+                        <a href="http://crimea-man.ru/" rel="noreferrer" target="_blank"><img src={MAN} alt={"MAN logo"}/></a>
                         </div>
 
                         <div className="school">
                         <p>- на кафедру электрохимии<a href="https://www.muctr.ru/" rel="noreferrer" target="_blank"><strong> Менделеевского университета</strong></a></p>
-                        <a href="https://www.muctr.ru/" rel="noreferrer" target="_blank"><img src={MHTI} alt={"MHTI logo"} style={{height:3+'vw'}}/></a>
+                        <a href="https://www.muctr.ru/" rel="noreferrer" target="_blank"><img src={MHTI} alt={"MHTI logo"}/></a>
                         </div>
 
                         <div className="school">
                         <p>- на<a href="http://www.ffl.msu.ru/" rel="noreferrer" target="_blank"><strong> факультет иностранных языков МГУ</strong></a></p>
-                        <a href="http://www.ffl.msu.ru/" rel="noreferrer" target="_blank"><img src={MSU} alt={"MSU logo"} style={{height:3+'vw'}}/></a>
+                        <a href="http://www.ffl.msu.ru/" rel="noreferrer" target="_blank"><img src={MSU} alt={"MSU logo"} style={{height:4+'vw'}}/></a>
                         </div>
 
                         <div className="school">
-                        <p>- в <a href="https://www.imanet.org" rel="noreferrer" target="_blank"><strong>Institute of Management Accountants, США</strong></a></p>
-                        <a href="https://imanet.org" rel="noreferrer" target="_blank"><img src={IMA} alt={"IMA logo"}/></a>
+                        <p>- в <a href="http://www.manuelbetanzos.com" rel="noreferrer" target="_blank"><strong>Академию фламенко, Испания</strong></a></p>
+                        <a href="https://imanet.org" rel="noreferrer" target="_blank"><img src={Academia} alt={"Academia logo"} style={{height:4+'vw'}}/></a>
                         </div>
 
                         <div className="school">
                         <p>- в <a href="https://learnenglish.asu.edu" rel="noreferrer" target="_blank"><strong>Университет штата Аризона, США</strong></a></p>
-                        <a href="https://learnenglish.asu.edu" rel="noreferrer" target="_blank"><img src={ASU} alt={"ASU logo"}/></a>
+                        <a href="https://globallaunch.asu.edu/" rel="noreferrer" target="_blank"><img src={ASU} alt={"ASU logo"}/></a>
                         </div>
 
                         <div className="school">
                         <p>- в <a href="https://www.universidadviu.com" rel="noreferrer" target="_blank"><strong>Международный Университет Валенсии, Испания</strong></a></p>
-                        <a href="https://www.universidadviu.com" rel="noreferrer" target="_blank"><img src={VIU} alt={"VIU logo"}/></a>
+                        <a href="https://www.universidadviu.com" rel="noreferrer" target="_blank"><img src={VIU} alt={"VIU logo"} style={{height:4+'vw'}}/></a>
                         </div>
 
                     </ul>
@@ -102,7 +103,7 @@ const About =() =>{
                         </div>
                 </div>
                 <div className="people">
-                    <p>- учитель учителей, автор курса "Teach English Now!" на <a href="https://www.coursera.org/specializations/tesol" rel="noreferrer" target="_blank"><img src={Coursera} alt="Coursera logo"/></a>, преподаватель Университета Аризоны,<a href="https://www.facebook.com/aecpshane.dixon" rel="noreferrer" target="_blank"> <strong>Dr. Shane Dixon</strong></a> (Финикс, США), научивший меня учить и благословивший на путь преподавания.</p>
+                    <p>- учитель учителей, автор курса "Teach English Now!" на <a href="https://www.coursera.org/specializations/tesol" rel="noreferrer" target="_blank"><img src={Coursera} alt="Coursera logo"/></a>, преподаватель Университета Аризоны,<a href="https://www.facebook.com/dr.shane.dixon" rel="noreferrer" target="_blank"> <strong>Dr. Shane Dixon</strong></a> (Финикс, США), научивший меня учить и благословивший на путь преподавания.</p>
                         <div className="portrait">
                         <a href="https://www.facebook.com/dr.shane.dixon" rel="noreferrer" target="_blank"><img src={Dixon} alt={'Shane portrait'}/></a>
                     </div>

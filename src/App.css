@@ -437,6 +437,7 @@ line-height: 1.5em;
   margin-right: 2vw;
 }
 .school img {
+  height:3vw;
   padding-top: 2.8vh;
   padding-right: 1vw;
 }
@@ -489,13 +490,13 @@ line-height: 1.5em;
 }
 
 .pics {
-margin-left:1vw;
-margin-right:1vw;
+margin: auto;
 }
 
 .pics img {
   height: 20vh;
   display: inline;
+  cursor: pointer;
 }
 
 /* BLOG STYLES */
