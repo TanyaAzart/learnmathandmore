@@ -478,7 +478,7 @@ line-height: 1.5em;
  }
  
  #enlarged img {
-  height: 40vw;
+  width: 40vw;
   border-radius: 5%;
  }
 
@@ -494,7 +494,7 @@ margin: auto;
 }
 
 .pics img {
-  height: 20vh;
+  width: 10vw;
   display: inline;
   cursor: pointer;
 }
@@ -802,6 +802,6 @@ width:500px;
   }
 
   #enlarged img {
-    height: 80vw;   
+    width: 80vw;   
    }
 }
