@@ -800,4 +800,8 @@ width:500px;
    .post-content img {
     width:250px;  
   }
+
+  #enlarged img {
+    height: 80vw;   
+   }
 }
